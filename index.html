@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Happy Birthday Debayan!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&family=Comic+Neue:wght@700&display=swap">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- Background Flowers -->
+    <div class="flower-container"></div>
+
+    <!-- Envelope -->
+    <div class="envelope" onclick="openEnvelope()">
+        <div class="envelope-flap"></div>
+    </div>
+
+    <!-- Images Container -->
+    <div class="images-container" id="imagesContainer">
+        <div class="swipe-instruction">Swipe left on photos to reveal message! ➤</div>
+        <div class="image-row">
+            <div class="image-card" style="background-image: url('demo1.jpg')"></div>
+            <div class="image-card" style="background-image: url('demo2.jpg')"></div>
+            <div class="image-card" style="background-image: url('demo3.jpg')"></div>
+        </div>
+    </div>
+
+    <!-- Birthday Letter -->
+    <div class="birthday-letter" id="letter">
+        <div class="letter-content">
+            <h1>Happy Birthday Bhai! 🎉</h1>
+            <p>Happy Birthday bhai, bolne ke toh kuch nhi h bhai tere ko toh bol he chuka hoon tu kaisa h. Bass ek baat kehena cahunga hamesha aisa he supportive rehna bhai. Tohra unique wish karna chata tah bhai issleyai wesite he banadiya. I wish tumhara jo sapna h woh sb pura ho. Hamesha Kuch rehna Bhai and have a wonderful year ahead.</p>
+        </div>
+    </div>
+
+    <!-- Background Music -->
+    <audio id="backgroundMusic" loop>
+        <source src="birthday-music.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
